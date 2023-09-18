@@ -12,6 +12,9 @@ public class App {
 
         System.out.println("Tecknet a ligger på plats: "+text.indexOf("a")+" i texten");
         
+        String del_sträng  = text.substring(1, 4);
+
+        
        
     }
 }

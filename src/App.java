@@ -12,9 +12,14 @@ public class App {
 
         System.out.println("Tecknet a ligger på plats: "+text.indexOf("a")+" i texten");
         
-        String del_sträng  = text.substring(1, 4);
+        System.out.println("Skriv en siffra där texten börjar: ");
+        int start = tb.nextInt();
+        System.out.println("Skriv en siffra där texten slutar: ");
+        int slut = tb.nextInt();
 
-        
+        String del_sträng = text.substring(start, slut);
+
+        System.out.println(del_sträng);
        
     }
 }

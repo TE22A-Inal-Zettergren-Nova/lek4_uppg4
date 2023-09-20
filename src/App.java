@@ -27,13 +27,12 @@ public class App {
         System.out.println(del_sträng);
        
         //* Uppgift D*/
+        tb.nextLine();
         System.out.println("Skriv ett ord: ");
         String ord = tb.nextLine();
-        System.out.println("Din text har ordet "+ord+":" + text.contains(ord));
+        System.out.println("Din text har ordet: " + text.contains(ord));
         
         //* Uppgift E*/
-
-        tb.nextLine();
         System.out.println("Välj en del av din text som ska bytas ut: ");
         String byta = tb.nextLine();
 

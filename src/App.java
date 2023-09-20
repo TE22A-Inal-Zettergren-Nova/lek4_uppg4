@@ -12,8 +12,9 @@ public class App {
         System.out.println("Längden på texten är: " + text.length());
         
          //* Uppgift B*/
-         
-        System.out.println("Tecknet a ligger på plats: "+text.indexOf("a")+" i texten");
+        System.out.println("Skriv in ett tecken: ");
+        String tecken = tb.nextLine();
+        System.out.println("Tecknet"+tecken+ "ligger på plats: "+text.indexOf(tecken)+" i texten");
         
          //* Uppgift C*/
         System.out.print("Skriv en siffra där texten ska delas: ");

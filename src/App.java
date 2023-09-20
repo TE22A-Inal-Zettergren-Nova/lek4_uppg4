@@ -12,6 +12,7 @@ public class App {
         System.out.println("Längden på texten är: " + text.length());
         
          //* Uppgift B*/
+         
         System.out.println("Tecknet a ligger på plats: "+text.indexOf("a")+" i texten");
         
          //* Uppgift C*/
@@ -25,7 +26,9 @@ public class App {
         System.out.println(del_sträng);
        
         //* Uppgift D*/
-        System.out.println("Din text innehåller Hej: " + text.contains("Hej"));
+        System.out.println("Skriv ett ord: ");
+        String ord = tb.nextLine();
+        System.out.println("Din text har ordet "+ord+":" + text.contains(ord));
         
         //* Uppgift E*/
 
